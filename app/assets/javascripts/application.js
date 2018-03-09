@@ -12,4 +12,8 @@
 //
 //= require rails-ujs
 //= require turbolinks
+//= require axios
+//= require jquery
+//= require jquery_ujs
 //= require_tree .
+//= require movies

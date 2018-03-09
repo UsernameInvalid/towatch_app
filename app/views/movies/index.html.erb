@@ -1,0 +1,16 @@
+<div class="center jumbotron">
+  <h1>Welcome to the To-Watch App</h1>
+  <h2>
+    Enter a movie name to search.
+  </h2>
+  <form id = "searchForm">
+    <input type="text" class="form-control" id="searchText" placeHolder"Search Moveis"/>
+  </form>
+  
+  <%= link_to "1!", movies_show_path(1), class: "btn btn-lg btn-primary" %>
+
+  <div class="container">
+    <div id="movies" class="row"> </div>
+  </div>
+ 
+</div>
